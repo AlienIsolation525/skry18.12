@@ -16,16 +16,16 @@ if((! file1.is_open()) || (! file2.is_open()))
     cout<<"ERROR CAN NOT OPEN THE FILES!";
     return 1;
 }
-
+string first,second,third;
 file1>>first>>second>>third;
 user.setname(first);
 user.setlogin(second);
 user.setpass(third);
 
 file2>>first>>second>>third;
-user.settext(first);
-user.setsender(second);
-user.setreceiver(third);
+message.settext(first);
+message.setsender(second);
+message.setreceiver(third);
 
 cout<<1<<endl;
 return 0;

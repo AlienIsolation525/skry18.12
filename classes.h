@@ -7,8 +7,6 @@ private:
     string _login;
     string _pass;
 public:
-    User();
-    ~User();
     void setname(string name){_name=name;};
     void setlogin(string login){_login=login;};
     void setpass(string pass){_pass=pass;};
